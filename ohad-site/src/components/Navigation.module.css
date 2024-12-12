@@ -1,0 +1,28 @@
+.navLinks {
+    text-decoration: none;
+    color: grey;
+    font-size: 30px;
+    transition: text-shadow .2s ease-out;
+}
+
+.navLinks:hover {
+    text-shadow: 0px 0px 1px black;
+}
+
+.logo {
+    height: 50px;
+    align-self: start;
+}
+
+.navFlex {
+    display: flex;
+    gap: 60px;
+    padding-top: 14px;
+}
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}

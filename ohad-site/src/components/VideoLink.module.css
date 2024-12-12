@@ -1,0 +1,34 @@
+.link {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.name {
+    position: absolute;
+    opacity: 0%;
+    transition: opacity .2s ease-out;
+}
+
+.link:hover {
+    .name {
+        opacity: 100%;
+        color: white;
+    }
+    
+    .img {
+        opacity: 75%;
+    }
+}
+
+.contain {
+    
+}
+
+.img {
+    width: 100%;
+    opacity: 100%;
+    transition: opacity .2s ease-out;
+}
