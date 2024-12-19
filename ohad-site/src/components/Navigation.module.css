@@ -1,7 +1,8 @@
 .navLinks {
     text-decoration: none;
-    color: grey;
+    color: black;
     font-size: 30px;
+    font-weight: 700;
     transition: text-shadow .2s ease-out;
 }
 
@@ -24,5 +25,42 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 768px) {
+    .navFlex {
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .contain {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    .logo {
+        order: -1;
+        margin: auto;
+    }
+
+    .socials {
+        margin: auto;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 20px;
+    }
 }

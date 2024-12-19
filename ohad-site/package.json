@@ -1,10 +1,11 @@
 {
   "name": "ohad-site",
   "version": "0.1.0",
-  "homepage": "https://colegoodnight.github.io/react-gh-pages",
-  "private": true,
+  "homepage": "https://ohadnir333.github.io",
+  "private": false,
   "dependencies": {
     "cra-template": "1.2.0",
+    "hashrouter": "^1.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.0.2",

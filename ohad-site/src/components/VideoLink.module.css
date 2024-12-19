@@ -4,12 +4,15 @@
   align-items: center;
   justify-content: center;
   background-color: black;
+  position:relative;
 }
 
 .name {
     position: absolute;
     opacity: 0%;
     transition: opacity .2s ease-out;
+    width: 85%;
+    text-align: center;
 }
 
 .link:hover {

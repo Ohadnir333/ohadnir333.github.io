@@ -1,6 +1,6 @@
 import './App.css';
 import { Helmet } from 'react-helmet'
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router"
+import { HashRouter as Router, Route, Routes, Link } from "react-router"
 import About from './views/About'
 import Home from './views/Home'
 import Stills from './views/Stills'
@@ -17,7 +17,7 @@ function App() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
         <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet"></link>
       </Helmet>
-      <Router>
+      <Router >
         <Navigation></Navigation>
         <Routes>
           <Route path="/" element={<Home />} />

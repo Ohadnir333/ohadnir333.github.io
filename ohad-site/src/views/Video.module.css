@@ -1,0 +1,15 @@
+.contain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contain iframe {
+    width: 70%;
+    aspect-ratio: 16/9;
+    margin: auto;
+}
+
+.contain h2 {
+    text-align: center;
+}

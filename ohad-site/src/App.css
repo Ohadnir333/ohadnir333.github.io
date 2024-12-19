@@ -5,9 +5,17 @@ html {
   font-weight:300;
   font-optical-sizing: auto;
   font-style: normal;
+  scrollbar-gutter: stable both-edges;
 }
 
 
 .App {
   margin: 40px;
+}
+
+@media (max-width: 768px) {
+  .App {
+    margin: 15px;
+    margin-top: 25px;
+  }
 }

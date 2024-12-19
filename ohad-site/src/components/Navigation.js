@@ -3,8 +3,10 @@ import { Link } from "react-router"
 import styles from './Navigation.module.css'
 
 function Navigation() {
-    const firstElementRef = useRef(null);
+  const firstElementRef = useRef(null);
   const [spacerWidth, setSpacerWidth] = useState(0);
+  let user = "ohadnir33"
+  let domain = "gmail.com"
 
   useEffect(() => {
     const updateSpacerWidth = () => {
@@ -33,8 +35,16 @@ function Navigation() {
                 <Link className={styles.navLinks} to="/about">ABOUT</Link>
             </div>
             <img className={styles.logo} src={`${process.env.PUBLIC_URL}/ON-black-icon.png`}/>
-            <div style={{ width: `${spacerWidth}px` }}>
-
+            <div className={styles.socials} style={{ width: `${spacerWidth}px` }}>
+                <a href="https://www.instagram.com/ohadnir1/">
+                    <img src={`${process.env.PUBLIC_URL}/instagram.svg`}/>
+                </a>
+                <a href="https://www.youtube.com/@OhadnirProductions">
+                    <img src={`${process.env.PUBLIC_URL}/youtube.svg`}/>
+                </a>
+                <a href={`mailto:${user}@${domain}`}>
+                    <img src={`${process.env.PUBLIC_URL}/email.svg`}/>
+                </a>
             </div>
         </div>
     )
