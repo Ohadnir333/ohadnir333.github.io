@@ -4,34 +4,49 @@
   align-items: center;
   justify-content: center;
   background-color: black;
-  position:relative;
+  position: relative;
 }
 
+/* overlay text (title, client, category) */
 .name {
-    position: absolute;
-    opacity: 0%;
-    transition: opacity .2s ease-out;
-    width: 85%;
-    text-align: center;
+  position: absolute;
+  opacity: 0%;
+  transition: opacity .2s ease-out;
+  width: 85%;
+  text-align: center;
+  color: white;
 }
 
+.name h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.name p {
+  margin: 2px 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* when you hover, show the overlay */
 .link:hover {
-    .name {
-        opacity: 100%;
-        color: white;
-    }
-    
-    .img {
-        opacity: 75%;
-    }
-}
-
-.contain {
-    
-}
-
-.img {
-    width: 100%;
+  .name {
     opacity: 100%;
-    transition: opacity .2s ease-out;
+    color: white;
+  }
+  
+  .img {
+    opacity: 75%;
+  }
+}
+
+/* container (can stay empty if not used) */
+.contain {
+}
+
+/* thumbnail image styling */
+.img {
+  width: 100%;
+  opacity: 100%;
+  transition: opacity .2s ease-out;
 }
