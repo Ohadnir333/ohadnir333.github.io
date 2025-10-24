@@ -1,29 +1,34 @@
 .collage {
-    position: relative;
-    width: 50%;
-    height: calc(100vh - 195px);
+  position: relative;
+  width: 50%;
+  height: calc(100vh - 195px);
 }
 
 .contain {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
+
+  /* ✅ OPTIONAL: uncomment these three if you want the old framed look */
+  /* max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px; */
 }
 
 .bio {
-    width: 50%;
-    display:flex;
-    gap: 25px;
-    flex-direction:column;
+  width: 50%;
+  display:flex;
+  gap: 25px;
+  flex-direction:column;
 }
 
 .bio p {
-    font-size: 22px;
-    margin: 0;
+  font-size: 22px;
+  margin: 0;
 }
 
 .bio h2 {
-    font-size: 30px;
-    margin: 0
+  font-size: 30px;
+  margin: 0
 }
 
 .img1 {
@@ -41,36 +46,35 @@
 }
 
 .CTA {
-    background-color: black;
-    color: white;
-    margin: auto;
-    text-decoration: none;
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 7px;
-    margin-top: 15px;
-    width: fit-content;
-    text-align: center;
-    font-weight: 600;
-    font-size: 20px;
-    transition: .2s ease-in;
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-decoration: none;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 7px;
+  margin-top: 15px;
+  width: fit-content;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  transition: .2s ease-in;
 }
-
 .CTA:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 @media (max-width: 768px) {
   .contain {
     flex-direction: column-reverse;
-  }
 
+    /* If you used the optional frame above, mirror it on mobile too: */
+    /* margin: 25px auto; padding: 0 15px; */
+  }
   .bio {
     width: 100%;
-
   }
-
   .collage {
     width: 100%;
     height: calc(100vh - 400px);
