@@ -10,12 +10,30 @@
   },
   {
     "client": "—",
-    "category": "Showreel",
-    "thumbnailFile": "Showreel2025.jpg",
-    "title": "2025 Show Reel",
+    "category": "Cinematography reel",
+    "thumbnailFile": "Cinematography.jpg",
+    "title": "Cinematography Reel",
+    "description": "",
+    "url": "Cinematography-reel",
+    "youtubeLink": "https://www.youtube.com/embed/JF2zaFSVkyo"
+  },
+ {
+    "client": "—",
+    "category": "Director Showreel 2025",
+    "thumbnailFile": "DirectorShowreel.jpg",
+    "title": "Director Showreel 2025",
     "description": "",
     "url": "Showreel-2025",
-    "youtubeLink": "https://www.youtube.com/embed/JF2zaFSVkyo"
+    "youtubeLink": "https://www.youtube.com/watch?v=oJNVQrq9rog"
+  },
+{
+  "client": "—",
+    "category": "-",
+    "thumbnailFile": "BACKYARD.jpg",
+    "title": "BACKYARD",
+    "description": "Personal project",
+    "url": "BACKYARD",
+    "youtubeLink": "https://www.youtube.com/watch?v=66nsPc9-sXU&t=90s"
   },
   {
     "client": "Joes No Flat",
