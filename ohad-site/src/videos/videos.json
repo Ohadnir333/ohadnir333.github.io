@@ -10,12 +10,30 @@
   },
   {
     "client": "—",
-    "category": "Showreel",
-    "thumbnailFile": "Showreel2025.jpg",
-    "title": "2025 Show Reel",
+    "category": "Director Showreel 2025",
+    "thumbnailFile": " DirectorShowreel2025.jpg",
+    "title": "Director Showreel 2025",
     "description": "",
     "url": "Showreel-2025",
+    "youtubeLink": "https://www.youtube.com/embed/oJNVQrq9rog"
+  },
+  {
+    "client": "—",
+    "category": "Cinematography reel",
+    "thumbnailFile": "Cinematography.jpg",
+    "title": "Cinematography Reel",
+    "description": "",
+    "url": "Cinematography-reel",
     "youtubeLink": "https://www.youtube.com/embed/JF2zaFSVkyo"
+  },
+  {
+    "client": "—",
+    "category": "-",
+    "thumbnailFile": "BACKYARD.jpg",
+    "title": "BACKYARD",
+    "description": "Personal project",
+    "url": "BACKYARD",
+    "youtubeLink": "https://www.youtube.com/embed/66nsPc9-sXU"
   },
   {
     "client": "Joes No Flat",
@@ -60,13 +78,13 @@
     "title": "Welcome Tim",
     "description": "",
     "url": "El-Tony-Mate-Welcome-Tim",
-    "youtubeLink": "https://www.instagram.com/reel/DNOOwWjN-j9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    "youtubeLink": "https://www.youtube.com/embed/QgxFGefwBis"
   },
   {
     "client": "Pinkbike Original",
     "category": "Documentary",
     "thumbnailFile": "AlmaJoyride.jpg",
-    "title": "Alma Wiggberg Joyride - Pinkbike Original",
+    "title": "Alma Wiggberg - Joyride",
     "description": "",
     "url": "Alma-Joyride",
     "youtubeLink": "https://www.youtube.com/embed/r7ojAHMRQk4?si=LMRjpR7XncPci8A7"
