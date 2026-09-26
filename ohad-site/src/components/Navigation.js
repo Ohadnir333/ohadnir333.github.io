@@ -34,16 +34,16 @@ function Navigation() {
                 <Link className={styles.navLinks} to="/stills">STILLS</Link>
                 <Link className={styles.navLinks} to="/about">ABOUT</Link>
             </div>
-            <img className={styles.logo} src={`${process.env.PUBLIC_URL}/ON-black-icon.png`}/>
+            <img className={styles.logo} src={`${process.env.PUBLIC_URL}/ON-black-icon.png`} alt="Ohad Nir"/>
             <div className={styles.socials} style={{ width: `${spacerWidth}px` }}>
                 <a href="https://www.instagram.com/ohadnir1/">
-                    <img src={`${process.env.PUBLIC_URL}/instagram.svg`}/>
+                    <img src={`${process.env.PUBLIC_URL}/instagram.svg`} alt="Instagram"/>
                 </a>
                 <a href="https://www.youtube.com/@OhadnirProductions">
-                    <img src={`${process.env.PUBLIC_URL}/youtube.svg`}/>
+                    <img src={`${process.env.PUBLIC_URL}/youtube.svg`} alt="YouTube"/>
                 </a>
                 <a href={`mailto:${user}@${domain}`}>
-                    <img src={`${process.env.PUBLIC_URL}/email.svg`}/>
+                    <img src={`${process.env.PUBLIC_URL}/email.svg`} alt="Email"/>
                 </a>
             </div>
         </div>

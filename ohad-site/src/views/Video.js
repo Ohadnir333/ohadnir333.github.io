@@ -2,11 +2,13 @@ import React, { useEffect } from 'react';
 import { useParams, useNavigate } from "react-router";
 import videos from "../videos/videos.json";
 import style from "./Video.module.css";
+import { videoLabels } from "../components/videoLabels";
 
 function Video() {
     const { videoId } = useParams();
     const video = videos.find((video) => video.url === videoId);
     const navigate = useNavigate();
+    const { client, category } = video ? videoLabels(video) : {};
 
     // if video not found, redirect to /not-found
     useEffect(() => {
@@ -22,8 +24,8 @@ function Video() {
                     {/* Video information section */}
                     <div className={style.videoInfo}>
                         <h2>{video.title}</h2>
-                        <p>Client: {video.client}</p>
-                        <p>{video.category}</p>
+                        {client && <p>Client: {client}</p>}
+                        {category && <p>{category}</p>}
                     </div>
 
                     {/* Embedded video player */}
